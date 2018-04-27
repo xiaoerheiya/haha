@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <web-app xmlns="http://java.sun.com/xml/ns/javaee"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+                      http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+  version="3.0"
+  metadata-complete="true">
+	<servlet>
+		<servlet-name>one</servlet-name>
+		<servlet-class>servlet.HttpOne</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>one</servlet-name>
+		<url-pattern>/onetest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>two</servlet-name>
+		<servlet-class>servlet.HttpTwo</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>two</servlet-name>
+		<url-pattern>/twotest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>three</servlet-name>
+		<servlet-class>servlet.HttpThree</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>three</servlet-name>
+		<url-pattern>/threetest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>lian</servlet-name>
+		<servlet-class>servlet.LianXi</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>lian</servlet-name>
+		<url-pattern>/liantest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>shu</servlet-name>
+		<servlet-class>servlet.ShuJu</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>shu</servlet-name>
+		<url-pattern>/shutest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>wan</servlet-name>
+		<servlet-class>servlet.WanYe</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>wan</servlet-name>
+		<url-pattern>/wantest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>insert</servlet-name>
+		<servlet-class>servlet.InsertServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>insert</servlet-name>
+		<url-pattern>/inserttest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>update</servlet-name>
+		<servlet-class>servlet.updateServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>update</servlet-name>
+		<url-pattern>/updatetest</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>chaxun</servlet-name>
+		<servlet-class>servlet.chaxunServlet</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+		<servlet-name>chaxun</servlet-name>
+		<url-pattern>/chaxuntest</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	<jsp-config>
+		<taglib>
+		<taglib-uri>http://java.sun.com/jstl/fmt</taglib-uri>
+		<taglib-location>/WEB-INF/fmt.tld</taglib-location>
+		</taglib>
+		<taglib>
+		<taglib-uri>http://java.sun.com/jstl/fmt-rt</taglib-uri>
+		<taglib-location>/WEB-INF/fmt-rt.tld</taglib-location>
+		</taglib>
+		<taglib>
+		<taglib-uri>http://java.sun.com/jstl/core</taglib-uri>
+		<taglib-location>/WEB-INF/c.tld</taglib-location>
+		</taglib>
+		<taglib>
+		<taglib-uri>http://java.sun.com/jstl/core-rt</taglib-uri>
+		<taglib-location>/WEB-INF/c-rt.tld</taglib-location>
+		</taglib>
+		<taglib>
+		<taglib-uri>http://java.sun.com/jstl/sql</taglib-uri>
+		<taglib-location>/WEB-INF/sql.tld</taglib-location>
+		</taglib>
+		<taglib>
+		<taglib-uri>http://java.sun.com/jstl/sql-rt</taglib-uri>
+		<taglib-location>/WEB-INF/sql-rt.tld</taglib-location>
+		</taglib>
+		<taglib>
+		<taglib-uri>http://java.sun.com/jstl/x</taglib-uri>
+		<taglib-location>/WEB-INF/x.tld</taglib-location>
+		</taglib>
+		<taglib>
+		<taglib-uri>http://java.sun.com/jstl/x-rt</taglib-uri>
+		<taglib-location>/WEB-INF/x-rt.tld</taglib-location>
+		</taglib>
+    </jsp-config>
+</web-app>
