@@ -145,7 +145,7 @@ public class ShuJu extends HttpServlet {
 				userList.add(phone);
 				userList.add(birth);
 				userList.add(age);
-
+				System.out.println("´«Ïú");
 			}
 
 		} catch (SQLException e) {

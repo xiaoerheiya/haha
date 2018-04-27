@@ -1,0 +1,1 @@
+c:\User\Administrator>git config --global user.name "xiaoerhei"
